@@ -20,8 +20,8 @@ echo " |---------------------------------------------------| "
 echo " | Uninstalling AhMyth from your system, please wait | "
 echo " |---------------------------------------------------| "
 rm -f /usr/local/sbin/ahmyth
-rm /usr/share/applications/AhMyth.desktop
-rm /usr/share/icons/64x64.png
+rm -f /usr/share/applications/AhMyth.desktop
+rm -f /usr/share/icons/64x64.png
 rm -rf node_modules
 sleep 5
 
@@ -36,9 +36,9 @@ echo " |-----------------------------------------------------| "
 echo " | To reinstall AhMyth, run the 'autoinstaller' script | "
 echo " |-----------------------------------------------------| "
 sleep 3
-echo " |-----------------------------------------------------------------------------------| "
-echo " | or run 'npm install && npm audit fix' inside the 'AhMyth/AhMyth-Server' directory | "
-echo " |-----------------------------------------------------------------------------------| "
+echo " |-----------------------------------------------------------| "
+echo " | or run 'npm install' inside the 'AhMyth-Server' directory | "
+echo " |-----------------------------------------------------------| "
 sleep 5
 clear
 exit 0

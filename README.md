@@ -9,9 +9,19 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Morsmalleo/AhMyth?color=crimson&include_prereleases) ![GitHub issues](https://img.shields.io/github/issues-raw/Morsmalleo/AhMyth?color=red) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Morsmalleo/AhMyth?color=light%20green) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Morsmalleo/AhMyth?color=red) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Morsmalleo/AhMyth?color=light-green) [![GitHub forks](https://img.shields.io/github/forks/Morsmalleo/AhMyth)](https://github.com/Morsmalleo/AhMyth/network) [![GitHub stars](https://img.shields.io/github/stars/Morsmalleo/AhMyth)](https://github.com/Morsmalleo/AhMyth/stargazers) [![GitHub discussions](https://img.shields.io/github/discussions/Morsmalleo/AhMyth)](https://GitHub.com/Morsmalleo/AhMyth/discussions) ![GitHub repo size](https://img.shields.io/github/repo-size/Morsmalleo/AhMyth) [![GitHub license](https://img.shields.io/github/license/Morsmalleo/AhMyth)](https://github.com/Morsmalleo/AhMyth/blob/master/LICENSE.md)
 
 #
-Give this repository a 💫 to support our project.
+Give this repository a 💫 to support the project.
 
-Contributions are more than welcome as this repository will continue to be maintained.
+Posting Issues with a failure to properly read and follow the things listed below first, will result in a temporary ban from the repository, WITHOUT WARNING! 
+- *Setup Instructions*
+- *User Manual*
+- *Troubleshoot Sections* 
+- *Issue Rules* 
+#
+## <div align="center">Announcement</div>
+AhMyth is currently in the process of a complete migration from [electron](https://github.com/electron/electron) to [tauri](https://github.com/tauri-apps/tauri) as well as a complete rebuild! 
+
+Please keep using this repository until further notice, updates to this repository will also still continue to happen until the migration and rebuild has finished, so dont stress, AhMyth isn't going anywhere.
+
 #
 
 ## <div align="center"><ins>Usage</ins></div>
@@ -33,7 +43,7 @@ Instructions for installing AhMyth using either the *Source Code* or the *Binary
 
 ### <div align="center"><ins>Source Code Setup</ins></div>
 - [AhMyth Wiki: Page 1 - Source Code Setup: Linux](https://github.com/Morsmalleo/AhMyth/wiki/Page-1.-Source-Code-Setup:-Linux)
-- [AhMyth Wiki: Page 2 - Source Code Setup: OS X](https://github.com/Morsmalleo/AhMyth/wiki/Page-2.-Source-Code-Setup:-OS-X)
+- [AhMyth Wiki: Page 2 - Source Code Setup: macOS](https://github.com/Morsmalleo/AhMyth/wiki/Page-2.-Source-Code-Setup:-macOS)
 - [AhMyth Wiki: Page 3 - Source Code Setup: Windows](https://github.com/Morsmalleo/AhMyth/wiki/Page-3.-Source-Code-Setup:-Windows)
 
 <br>
@@ -41,7 +51,7 @@ Instructions for installing AhMyth using either the *Source Code* or the *Binary
 ### <div align="center"><ins>Binary Setup</ins></div>
 
 - [AhMyth Wiki: Page 4 - Binary Setup: Linux](https://github.com/Morsmalleo/AhMyth/wiki/Page-4.-Binary-Setup:-Linux)
-- [AhMyth Wiki: Page 5 - Binary Setup: OS X (Being Written)](https://github.com/Morsmalleo/AhMyth/wiki/Page-5.-Binary-Setup:-OS-X)
+- [AhMyth Wiki: Page 5 - Binary Setup: macOS (Being Written)](https://github.com/Morsmalleo/AhMyth/wiki/Page-5.-Binary-Setup:-macOS)
 - [AhMyth Wiki: Page 6 - Binary Setup: Windows](https://github.com/Morsmalleo/AhMyth/wiki/Page-6.-Binary-Setup:-Windows)
 #
 
@@ -63,26 +73,39 @@ You can find the Troubleshoot Sections for both Source Code Usage errors and Bin
 
 ## <div align="center"><ins>Posting Issues</ins></div>
 
-Any issues with AhMyth, must be posted using the *[Issue Templates](https://github.com/Morsmalleo/AMyth/issues/new/choose)* accordingly.
+Any issues with AhMyth, must be posted using the *[Issue Templates](https://github.com/Morsmalleo/AhMyth/issues/new/choose)* accordingly.
 
 The following list will help users determine which Issue Template is suitable for their problem.
 
 <br>
 
 ### <div align="center"><ins>Issue Templates</ins></div>
-- [Server Bug Report](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=bug%2C+error&template=server-bug-report.md&title=)
+- [x] [Server Report](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=bug%2C+error&template=server-report.md&title=)
 
-Use this issue Template if you experience problems like Buggy/Unusable Victim's Lab Features, or `Building Failed errors with Standalone APK Payloads`.
+Use this issue Template if you experience the following problems;
+- Building & Signing Errors with Standalone APK payloads (Not Binding)
+- Unstable Victim's Lab Features
+- User Interface Problems
+- IP & PORT configuration problems
 
-- [Client Bug Report](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=bug%2C+error&template=client-bug-report.md&title=)
+<br></br>
 
-Use this Issue Template if you experience things such as Flickering Victim Connections.
+- [x] [Client Report](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=bug%2C+error&template=client-report.md&title=)
 
-- [Binding Report](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=bug%2C+error&template=binding-report.md&title=)
+Use this Issue Template if you experience any of the following issues
+- Unstable Victim's Connections
+- Applications Crashing after Binding
+- Victims connections dont return despite successful binding & installation as well as proper IP & PORT configuration
+
+<br></br>
+
+- [x] [Binding Report](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=bug%2C+error&template=binding-report.md&title=)
 
 Use this Issue Template when you are greeted with any errors when using the Binding Features.
 
-- [Feature Request](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=enhancememt&template=feature_request.md&title=)
+<br></br>
+
+- [x] [Feature Request](https://github.com/Morsmalleo/AhMyth/issues/new?assignees=Morsmalleo&labels=enhancememt&template=feature_request.md&title=)
 
 Use this Template if you wish to request an upgrade that hasnt already been integrated.
 
@@ -112,7 +135,7 @@ For those looking to study this unique RAT, you can find all the information you
 <a href="https://github.com/Morsmalleo/AhMyth/blob/master/.github/IMG/VictimsLab.PNG"> <img width="875" src="https://github.com/Morsmalleo/AhMyth/blob/master/.github/IMG/VictimsLab.PNG"> Victims Lab </a> | <a> COMING SOON! </a> | <a> COMING SOON! </a> |
 #
 
-## <div align="center"><ins>Credits & Specials Thank's</ins></div>
+## <div align="center"><ins>Credits</ins></div>
 
 Created by
 - [Ahmed Al 'AhMyth' Hajri](https://github.com/AhMyth)
